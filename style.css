@@ -4,4 +4,22 @@
 
 .box1 {
   background-colour: blue;
+  flex:1;
+  order:1;
+  align: flex-start;
+}
+
+.box2 {
+  background-colour: yellow;
+  flex:1;
+  order:2;
+  align: flex-center;
+  flex-direction:column;
+}
+
+.box3 {
+  background-colour: purple;
+  flex:1;
+  order:3;
+  align: flex-start;
 }
